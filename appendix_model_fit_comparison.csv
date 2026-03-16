@@ -1,0 +1,9 @@
+specification,target_log_likelihood,metric,elpd,se,p_eff,n_samples,n_data_points,warning
+PS0_baseline,basket2_pred,LOO,-1406.02,9.4,31.15,32000,1037,True
+PS0_baseline,basket2_pred,WAIC,-1405.99,9.4,31.12,32000,1037,True
+PS1_tighter_structural,basket2_pred,LOO,-1406.99,8.88,29.48,32000,1037,True
+PS1_tighter_structural,basket2_pred,WAIC,-1406.97,8.88,29.46,32000,1037,True
+PS2_wider_structural,basket2_pred,LOO,-1406.38,10.02,32.86,32000,1037,True
+PS2_wider_structural,basket2_pred,WAIC,-1406.34,10.02,32.82,32000,1037,True
+PS3_measurement_variance_sensitive,basket2_pred,LOO,-1406.1,9.59,31.84,32000,1037,True
+PS3_measurement_variance_sensitive,basket2_pred,WAIC,-1406.07,9.59,31.81,32000,1037,True

@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-03-04T17:49:58.390180",
+  "spec_id": "PS2_wider_structural",
+  "prior_profile": "wider_structural",
+  "prior_config": {
+    "beta_sigma": 2.0,
+    "lambda_mu": 0.7,
+    "lambda_sigma": 0.5,
+    "psi_sigma": 1.0,
+    "notes": "Tests sensitivity to weaker regularization of structural effects."
+  },
+  "input_data_path": "C:\\Users\\omy000\\OneDrive - UiT Office 365\\Hdisk\\omy000 (homer.uit.no)\\data\\kaaresk\\appendix\\basket.csv",
+  "n_observations": 1037,
+  "n_factors": 8,
+  "factor_names": [
+    "brand",
+    "hedonic",
+    "confused",
+    "perf",
+    "careless",
+    "value",
+    "habit",
+    "novelty"
+  ],
+  "chains": 4,
+  "draws": 8000,
+  "tune": 4000,
+  "target_accept": 0.99,
+  "platform": {
+    "python": "3.12.12",
+    "os": "Windows-11-10.0.22631-SP0"
+  },
+  "outputs": {
+    "idata_nc": "C:\\Users\\omy000\\OneDrive - UiT Office 365\\Hdisk\\omy000 (homer.uit.no)\\data\\kaaresk\\appendix\\PS2_wider_structural\\bayesian_sem_inference_data.nc",
+    "processed_pkl": "C:\\Users\\omy000\\OneDrive - UiT Office 365\\Hdisk\\omy000 (homer.uit.no)\\data\\kaaresk\\appendix\\PS2_wider_structural\\processed_data.pkl",
+    "detailed_results_pkl": "C:\\Users\\omy000\\OneDrive - UiT Office 365\\Hdisk\\omy000 (homer.uit.no)\\data\\kaaresk\\appendix\\PS2_wider_structural\\detailed_results_full.pkl",
+    "model_summary_csv": "C:\\Users\\omy000\\OneDrive - UiT Office 365\\Hdisk\\omy000 (homer.uit.no)\\data\\kaaresk\\appendix\\PS2_wider_structural\\model_summary.csv",
+    "metadata_json": "C:\\Users\\omy000\\OneDrive - UiT Office 365\\Hdisk\\omy000 (homer.uit.no)\\data\\kaaresk\\appendix\\PS2_wider_structural\\model_metadata.json"
+  },
+  "notes": "Tests sensitivity to weaker regularization of structural effects."
+}

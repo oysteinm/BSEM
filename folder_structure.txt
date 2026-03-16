@@ -1,0 +1,35 @@
+C:/Users/omy000/OneDrive - UiT Office 365/Hdisk/omy000 (homer.uit.no)/data/kaaresk/appendix/BSEM
+├── appendix_model_fit_comparison.csv
+├── basket.csv
+├── basket_mc4_PS0_baseline.py
+├── basket_mc4_PS1_tighter_structural.py
+├── basket_mc4_PS2_wider_structural.py
+├── basket_mc4_PS3_measurement_variance_sensitive.py
+├── basket_multinomial_robustness.py
+├── compare_ordered_vs_multinomial.py
+├── descriptive_latent.py
+├── marginal_effects_out
+│   ├── marginal_effects_long_all_scenarios.csv
+│   ├── marginal_effects_long_PS0_baseline.csv
+│   ├── marginal_effects_long_PS1_tighter_structural.csv
+│   ├── marginal_effects_long_PS2_wider_structural.csv
+│   └── marginal_effects_long_PS3_measurement_variance_sensitive.csv
+├── marginal_effects_ps0_ps3_local.py
+├── prior_sensitivity_posterior_comparison.csv
+├── PS0_baseline
+│   ├── model_metadata.json
+│   └── model_summary.csv
+├── PS1_tighter_structural
+│   ├── model_metadata.json
+│   └── model_summary.csv
+├── PS2_wider_structural
+│   ├── model_metadata.json
+│   └── model_summary.csv
+├── PS3_measurement_variance_sensitive
+│   ├── model_metadata.json
+│   └── model_summary.csv
+├── README.md
+├── robustness_check_summary.csv
+├── ROBUSTNESS_multinomial_logit
+│   └── model_summary.csv
+└── supplementary_appendix_v2.pdf
