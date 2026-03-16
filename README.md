@@ -8,6 +8,7 @@ This repository contains the replication materials for the Bayesian structural e
 
 ## Repository Structure
 
+```text
 BSEM/
 ├── appendix_model_fit_comparison.csv
 ├── basket.csv
@@ -45,6 +46,7 @@ BSEM/
 │   └── model_summary.csv
 └── ROBUSTNESS_multinomial_logit/
     └── model_summary.csv
+```
 
 ## Overview
 
