@@ -84,17 +84,6 @@ Install with:
 pip install pymc arviz numpy pandas scipy scikit-learn
 ```
 
-### R / Quarto
-
-The supplementary appendix PDF can be regenerated if you have:
-
-* R 4.3+
-* `tidyverse`
-* `knitr`
-* `kableExtra`
-* Quarto CLI
-* a LaTeX distribution (for example TinyTeX)
-
 ## How to Reproduce the Main Results
 
 ### 1. Estimate the Bayesian SEM specifications
