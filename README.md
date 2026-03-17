@@ -130,9 +130,7 @@ While both **PS0** and **PS3** share the same structural priors ($\beta \sim \ma
 **PS0 (Baseline):** Utilizes a standard weakly informative prior for measurement error ($\psi \sim \text{Half-Normal}(1.0)$).
 **PS3 (Measurement-Variance Sensitive):** Increases the allowed measurement uncertainty ($\psi \sim \text{Half-Normal}(2.0)$).
 
-Increasing the variance in **PS3** was a targeted diagnostic step to address MCMC mixing issues observed in earlier iterations. Despite the "looser" measurement model, the structural coefficients remained stable, confirming that the shopping style effects are driven by consumer data rather than restrictive measurement priors. PS3 is reported as the primary model as it yielded **zero divergent transitions** and the highest effective sample sizes.
-
-**Would you like me to incorporate this directly into the "Prior Specifications Summary" table in your main README?**
+Increasing the variance in PS3 was a targeted diagnostic step to address MCMC mixing issues observed in earlier iterations. Despite the "looser" measurement model, the structural coefficients remained stable, confirming that the shopping style effects are driven by consumer data rather than restrictive measurement priors. PS3 is reported as the primary model as it yielded zero divergent transitions and the highest effective sample sizes.
 
 ## Reproducibility Note
 
