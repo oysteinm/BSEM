@@ -125,7 +125,7 @@ python compare_ordered_vs_multinomial.py
 
 ### Prior Sensitivity: Technical Distinction (PS0 vs. PS3)
 
-While both **PS0** and **PS3** share the same structural priors ($\beta \sim \mathcal{N}(0, 1)$), they differ in their treatment of measurement error variance ($\psi$) within the latent factor model:
+While both PS0 and PS3 share the same structural priors ($\beta \sim \mathcal{N}(0, 1)$), they differ in their treatment of measurement error variance ($\psi$) within the latent factor model:
  
 **PS0 (Baseline):** Utilizes a standard weakly informative prior for measurement error ($\psi \sim \text{Half-Normal}(1.0)$).
 **PS3 (Measurement-Variance Sensitive):** Increases the allowed measurement uncertainty ($\psi \sim \text{Half-Normal}(2.0)$).
